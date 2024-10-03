@@ -1,4 +1,4 @@
-Decrypting image
+## Decrypting image
 try:
 
   path = input(r'Enter path of Image :')		#take path of image as a input
