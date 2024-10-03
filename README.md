@@ -15,7 +15,6 @@ This project demonstrates a method for encrypting images through pixel manipulat
 - [Usage](#usage)
 - [How It Works](#how-it-works)
 - [Example](#example)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
@@ -38,4 +37,24 @@ python3 image_decrypter.py
     Pixel Manipulation: The encryption process modifies pixel values based on a secret key and a specified algorithm.
     Data Obfuscation: By changing pixel values, the original image becomes unreadable.
     Decryption: The reverse process restores the original image using the same secret key.
+
+## Example
+
+Here's a simple example of how to use the scripts provided:
+
+    Encrypting an Image: python3 image_encrypter.py 
+                         Enter path of Image : 
+                         Enter Key for encryption of Image: 
+                         The path of file:  
+                         Key for encryption:  
+                         Encryption Done...
+
+    Decrypting the Image: python3 image_decrypter.py
+                          Enter path of Image :/home/bug/Downloads/flower.jpg
+                          Enter Key for encryption of Image: 12
+                          The path of file:  /home/bug/Downloads/flower.jpg
+                          Note: Encryption key and Decryption key must be same.
+                          Key for Decryption:  12
+                         Decryption Done...
+
 
