@@ -1,4 +1,4 @@
-Encrypting Image
+## Encrypting Image
 
 # try block to handle exception
 try:
